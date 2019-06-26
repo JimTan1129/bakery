@@ -32,3 +32,8 @@ li a:hover {
 body {
   background: #f5f5f5;
 }
+
+h1 {
+  text-align: center;
+  font-style: italic;
+}
