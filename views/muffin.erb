@@ -1,0 +1,13 @@
+<h2>Hoofin</h2>
+<section>
+  <div id="catalog">
+    <% for i in (0..2) do %>
+    <div class="bee">
+      <h2><%= @muffin[i].name %></h2>
+      <img src="<%= @muffin[i].img %>">
+      <h3><%= @muffin[i].description %></h3>
+      <p><%= @muffin[i].price %></p>
+    </div>
+    <% end %>
+  </div>
+</section>
