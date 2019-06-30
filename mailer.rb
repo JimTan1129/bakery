@@ -15,6 +15,6 @@ ActionMailer::Base.smtp_settings = {
 class Newsletter < ActionMailer::Base
   default from: "from@example.com"
   def welcome(recipient)
-    mail(to: recipient, subject: 'Thanks for restocking')
+    mail(to: recipient, subject: 'Thanks for restocking'
   end
 end

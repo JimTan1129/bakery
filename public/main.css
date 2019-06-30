@@ -111,3 +111,15 @@ h2 {
   padding-left: 40;
 
 }
+
+.sell {
+  justify-content: center;
+  font-size: 11px;
+  display: grid;
+  grid-template: 100px / 225px 125px 650px 100px;
+  grid-gap: 10px;
+  background-color: #FFDEAD;
+  height: 250px;
+  width: 100%;
+  border-radius: 10px;
+}

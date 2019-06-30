@@ -1,1 +1,13 @@
-<h1>check on cookies</h1>
+<h1>Hookies</h1>
+<section>
+  <div class="catalog">
+    <% for i in (0..2) do %>
+    <div class="bee">
+      <h2><%= @cookie[i].name%></h2>
+      <img src="<%= @cookie[i].img %>">
+      <h3><%= @cookie[i].description %></h3>
+      <p><%= @cookie[i].price %></p>
+    </div>
+    <% end %>
+  </div>
+</section>

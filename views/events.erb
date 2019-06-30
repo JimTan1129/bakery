@@ -1,7 +1,7 @@
 <h1 style="font-size:60px">We showcase others because they never restock!</h1>
-<section id="last">
+<section id="sell">
     <% for i in (0..5) do %>
-    <div id="catalog">
+    <div class="sell">
       <img class="epic" src="<%= @events[i]['logo']['original']['url'] %>">
       <h3 style="padding-top: 40px"><%= @events[i]['name']['text'] %></h3>
       <h3 class="desc"><%= @events[i]['description']['text'] %></h3>
