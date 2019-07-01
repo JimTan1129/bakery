@@ -66,9 +66,9 @@ get "/muffin" do
   erb :muffin
 end
 
-get "/thanks" do
+get "/enjoy" do
   send_email(params[:email])
-  erb :thanks
+  erb :enjoy
 end
 
 
